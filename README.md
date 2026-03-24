@@ -48,12 +48,18 @@ keeping your calendar clean and accurate.
 - **Windy** : Alert for strong winds.
 
 ## ⚙️ Setup
-  1.API Key: Get your free API key from OpenWeatherMap.
-  2.Calendar ID: Create a dedicated "Weather" calendar in Google Calendar and copy its "Calendar ID".
-  3.Google Apps Script: Create a new GAS project.
-  4.Paste the code from weather_sync.js.
--5.Update the configuration section with your API Key, LATITUDE/LONGITUDE, and Calendar ID.
--6.Trigger: Set the checkAndManageWeatherEvents function to run on a "Time-driven trigger" (Every hour).
+
+1.API Key: Get your free API key from OpenWeatherMap.
+
+2.Calendar ID: Create a dedicated "Weather" calendar in Google Calendar and copy its "Calendar ID".
+
+3.Google Apps Script: Create a new GAS project.
+
+4.Paste the code from weather_sync.js.
+
+5.Update the configuration section with your API Key, LATITUDE/LONGITUDE, and Calendar ID.
+
+6.Trigger: Set the checkAndManageWeatherEvents function to run on a "Time-driven trigger" (Every hour).
 
 ## 🛠️ Tech Stack
 Google Apps Script (CalendarApp / UrlFetchApp)
